@@ -6,5 +6,12 @@ import { Component } from '@angular/core';
   styleUrls: ['./app.component.css']
 })
 export class AppComponent {
-  title = 'Api-data';
+  title = 'Bday-Sort';
+
+  sortValue:any;
+
+  getSortData(val:any)
+  {
+    this.sortValue = val;
+  }
 }
